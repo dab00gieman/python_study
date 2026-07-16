@@ -23,3 +23,8 @@ print(z)
 navy_blue = (5, 0, 128)
 red, green, blue = navy_blue
 print(f"the RGB color palette value of NAVY-BLUE is \n > red = {red}\n > green = {green} \n > blue = {blue}")
+
+grades = [88, 72, 95, 60]
+grades.sort()
+print(sorted(grades))
+print(grades)
