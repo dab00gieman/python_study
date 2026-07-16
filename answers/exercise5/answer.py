@@ -17,10 +17,37 @@ print(m | n)
 print(m & n)
 print(m - n)
 
-michael = {"michael.": "python && rust",}
+michael = {"michael.": "python && rust"}
 print(michael["michael."])
 print(michael.get("car"))
 
 cars = {"bmw", "audi", "mercedes_benz", "koineggseg", "pagani", "audi", "bmw"}
 print(sorted(cars))
+
+student = {"name": "Alice", "age": "20", "courses": ["Math", "Physics"]}
+print(student["name"])
+print(student["age"])
+student["gpa"] = 3.9
+student["age"] = 21
+print(student["age"])
+print(student["gpa"])
+print(student["name"])
+print(student.get("scholarship", "not eligible"))
+
+
+denim = {1, 2, 3, 4, 4, 5}
+
+denim.add(6)
+
+z = {4, 5, 6, 7}
+
+print(denim)
+print(denim | z)
+
+
+
+
+
+
+
 
