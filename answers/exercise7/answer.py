@@ -51,3 +51,11 @@ for nut in range(16):
     if nut % 2 == 0:
         continue
     print(nut)
+
+names = ["Alice", "Bob", "Charlie", "David", "Eve"]
+
+for name in names:
+    if name == "Charlie":
+       print("Found Charlie!")
+       break
+
