@@ -50,3 +50,28 @@ elif score < 70 and score >= 0:
     print(f"score is {score}, NEEDS IMPROVEMENT!")
 else:
     print("invalid score, score must be between 0 to 100")
+
+
+age = 20
+gauge = "can vote" if age >= 18 else "cannot vote"
+print(gauge)
+
+ROLE = "role"
+
+match ROLE: 
+    case "admin":
+        print("Full access")
+    case "editor" | "author":
+        print("Write access")
+    case "guest":
+        print("Read access")
+    case _:
+        print("No access")
+
+        
+
+items = input("Enter items: ")
+if items:  
+    print(f"Empty, {items}")
+else:
+    print("Items present")
