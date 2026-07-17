@@ -49,5 +49,5 @@ for numb in range(1, 51):
 
 for nut in range(16):
     if nut % 2 == 0:
-        break
+        continue
     print(nut)
