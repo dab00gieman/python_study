@@ -52,10 +52,13 @@ for nut in range(16):
         continue
     print(nut)
 
-names = ["Alice", "Bob", "Charlie", "David", "Eve"]
+namez = ["Alice", "Bob", "Charlie", "David", "Eve"]
 
-for name in names:
+for name in namez:
     if name == "Charlie":
        print("Found Charlie!")
        break
 
+names = ["Alice", "Bob", "Charlie", "David", "Eve"]
+names_lenght = [(namess, len(namess)) for namess in names]
+print(names_lenght)
